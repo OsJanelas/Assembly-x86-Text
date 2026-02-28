@@ -1,0 +1,10 @@
+nasm -fbin font/atog.asm -o font/abcdefg.bin
+nasm -fbin font/hton.asm -o font/hijklmn.bin
+nasm -fbin font/otou.asm -o font/opqrstu.bin
+nasm -fbin font/vtoz.asm -o font/vwxyz.bin
+nasm -fbin font/numbers.asm -o font/numbers.bin
+nasm -fbin font/atog.asm -o font/Letters1.img
+nasm -fbin font/hton.asm -o font/Letters2.img
+nasm -fbin font/otou.asm -o font/Letters3.img
+nasm -fbin font/vtoz.asm -o font/Letters4.img
+nasm -fbin font/numbers.asm -o font/Numbers.img
